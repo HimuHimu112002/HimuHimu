@@ -82,12 +82,12 @@ return (
         <BrowserRouter>
             <ToastContainer position="bottom-center" theme="dark"/>
             <Container id='contact' className='rounded shadow-sm my-4'>
-                <Row className='mt-5 px-5 contact_bg'>
-                    <div className='skill__content--heading text-center'>
+                <Row className='mt-5 px-5'>
+                    <div className='skill__content--heading text-center mb-5'>
                         <h1>CONTACT WITH ME</h1> 
                     </div>
 
-                    <div className='contact_info mt-5'>
+                    <Col className='mb-4' md="6">
                         <div>
                             <h4>Phone Number</h4>
                             <div className='contact_icon'>
@@ -100,14 +100,14 @@ return (
                             </div>
                         </div>
 
-                        <div className='m-auto'>
+                        <div>
                             <h4>Email Address</h4>
                             <div className='contact_icon'>
                                 <AiOutlineMail></AiOutlineMail>
                                 <p className='email'>mdhmaktaruzzaman9101@gmail.com</p>
                             </div>
                         </div>
-                    </div>
+                    </Col>
                     <Col className='m-auto mb-4' md="6">
                         <form ref={form} onSubmit={sendEmail}>
                         <label>Name</label><br/>

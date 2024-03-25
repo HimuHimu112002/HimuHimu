@@ -13,7 +13,7 @@ const Experience = () => {
                   <p>My work experience as a frontend developer (React.js) and working on different more projects and Api integration.</p>
               </div>
               <Col sm='10' className='experience__content--section m-auto text-center py-4'>
-                  <ExperienceCardRecevedProps title="Front-end Developer" company="Wb Softwars Ltd:" dateJob="March 3/1/2024 - Aprill 4/1/2024" skillOption="Skills: • Html • Css • JavaScript • React.js • Bootstrap • Rest-Api • Firebase"/>
+                  <ExperienceCardRecevedProps title="Front-end Developer" company="Wb Softwars Ltd:" dateJob="March 3/1/2024" skillOption="Skills: • Html • Css • JavaScript • React.js • Bootstrap • Rest-Api • Firebase"/>
               </Col>
           </Row>
       </Container>

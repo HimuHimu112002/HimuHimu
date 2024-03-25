@@ -1,6 +1,9 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { FaFacebook,FaGithub,FaLinkedin} from "react-icons/fa";
 import { BrowserRouter } from 'react-router-dom';
+import { FaReact,FaNodeJs } from "react-icons/fa";
+import { SiExpress,SiMongodb  } from "react-icons/si";
+import { TbBrandPrisma } from "react-icons/tb";
 const Banner = () => {
   return (
     <BrowserRouter>
@@ -15,6 +18,15 @@ const Banner = () => {
                     <p> As a MERN STACK Developer, I am like design and develop web application. I use my knowledge and expertise to create modern applications that are both efficient and elegant.</p>
 
                     <a href='https://drive.google.com/file/d/1MiR3LL2NNCNsxwMPvh1lp_-MQT_EQUH6/view?usp=drive_link'><Button className='banner__left--butotn' >Check Resume</Button></a>
+
+                    {/* <div className='d-flex w-100 justify-content-around'>
+
+                        <div className='bg-white rounded shadow banner__mern--icon'><FaReact className='react__icon' /></div>
+                        <div className='bg-white px-4 py-2 rounded shadow banner__node--icon'><FaNodeJs  className='react__icon' /> NODE.JS</div>
+                        <div className='bg-white px-4 py-2 rounded shadow banner__express--icon'><SiExpress  className='react__icon' /> EXPRESS.JS</div>
+                        <div className='bg-white px-4 py-2 rounded shadow banner__mongodb--icon'><SiMongodb  className='react__icon' /> MONGODB</div>
+                    </div> */}
+
                     <div className='social__icon--mainsection'>
                         <div className='social__icon shadow-sm'><a href='https://www.facebook.com/mdhimu.humu?mibextid=ZbWKwL'><FaFacebook/></a></div>
                         <div className='social__icon shadow-sm ms-3'><a href='https://www.linkedin.com/feed/'><FaLinkedin /></a></div>
